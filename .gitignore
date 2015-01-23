@@ -1,3 +1,5 @@
 Makefile
 *.user
+*.autosave
+*.~
 build
