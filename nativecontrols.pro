@@ -39,4 +39,4 @@ java_target.path = $$[QT_INSTALL_PREFIX]/src/android/java
 
 INSTALLS = qmldir libs_target java_target
 
-message($$INSTALLS)
+message($$[INSTALL_ROOT])
