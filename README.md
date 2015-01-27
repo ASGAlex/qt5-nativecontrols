@@ -8,7 +8,7 @@ Now supports only Android, contains only datepicker. Now it looks like basic exa
 Compile it as ordinary qt5 project in QtCreator.
 To install, run ```make install```. On windows, QtCreator execute ```make install``` with INSTALL_PREFIX, witch brokes installation path. So, you should run ```make install``` manually from console.
 
-Installation successed, if you see libNativeControls.so in new $QTDIR\5.4\android_armv7\qml\org\asgalex directory. Also, $QTDIR\5.4\android_armv7\src\android\java\src\org\asgalex directory with .java files should exists
+Installation succeed, if you see libNativeControls.so in new $QTDIR\5.4\android_armv7\qml\org\asgalex directory. Also, $QTDIR\5.4\android_armv7\src\android\java\src\org\asgalex directory with .java files should exists
 
 #Usage
 
