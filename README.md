@@ -1,7 +1,7 @@
 # qt5-nativecontrols
 Native controls for mobile QT5+QML applications
 
-Now supports only Android, contains only datepicker.
+Now supports only Android, contains only datepicker. Now it looks like basic example of writing native plugins for andriod, not like complex library.
 
 # Installation
 
@@ -26,4 +26,4 @@ NativeDatePicker {
 }
 ```
 
-If you dont want to install library into the $QTDIR, you could include it directly in your project:
+If you dont want to install library into the $QTDIR, you could include it directly in your project: add libNativeControls.so into ANDROID_EXTRA_LIBS and all *.java files into ANDROID_PACKAGE_SOURCE_DIR as described in <a href="http://doc.qt.io/qt-5/qtandroidextras-notification-example.html">example</a>
